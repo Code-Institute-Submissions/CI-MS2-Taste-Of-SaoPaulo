@@ -1,45 +1,76 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Talk about the inspirations for the project
 
-Welcome USER_NAME,
+MOCKUP IMAGE
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### Overview
+> This project aims to turn boring business travels into interesting opportunities to soak in the vibrant cultural life of the biggest city in Brazil. It’s all about stimulating: the curiosity of recurring and short-time travellers, emerging and thriving local businesses, a colourful approach to concrete jungle.
 
-## Gitpod Reminders
+---
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### User Stories
 
-`python3 -m http.server`
+> - _"I often travel to Sao Paulo for business, but can’t stand going to the same places every time"
+> - _"I’m travelling to Sao Paulo but won’t have much time there, so I’d like to learn what’s best in town"
+> - _"I want to better explore what’s near me next time I go to Sao Paulo"
+> - _"I have a few more days in Sao Paulo and I’m sick of staying in my hotel surroundings"
+> - _"I need an application that helps me on the go, while I’m moving through the city"
+> - _"I’d like to have recommendations of places and events, so I can make better use of my schedule"
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+### UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+This is a website addressed to business people of all ages, genders, nationalities and industries who are willing to explore Sao Paulo from beyond the glass-walled buildings. The main functionality of this website is to offer options of what to do in the free time according to users preferences and time spent in the city.
+Vivid images, curated content and maps are essential for this project.
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+#### 1. Strategy
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Straightforward and enticing at the same time, the UX seeks a balance between relevant information and viable schedules. The outcome has to be the right amount of options to the right amount of time. 
+>
+> ##### Project Goals:
+>
+Become a reference on recommendations for varied types of business travellers
+Help users make the best use of free time while in Sao Paulo
+Promote tourism, portraying Sao Paulo as more than a financial and business centre
+Grow a valuable customer database to local businesses
+>
+> ##### Customer Goals:
+>
+Mobile-first approach, to help users on-the-go
+Interactive maps that allow users to navigate in their area
+Mail list to get recommendations and travel plans in advance
+Curated and easy to find information
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### 2. Scope
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The idea is to keep it quick, simple and meaningful, just as our visitors' business trip. The challenge here is to be straightforward and enticing at the same time, taking into account the limited time our visitors will have to explore the city. For this reason, a constantly updated list of the top 10 things to do in Sao Paulo is the easiest way to help users create their own itineraries.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### 3. Structure
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+An inviting homepage bearing a carousel of appealing photos of Sao Paulo
+Summary about the city
+Curated content in 4 call-to-action clusters (Eat, Visit, Enjoy, Shop) that help users to create a tour itinerary
+Social media links allow visitors to deep-dive in São Paulo to see a wider range of options
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### 4. Skeleton
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+One-page website with 4 main sections
+Fixed navigation bar (Home, SP, Trending, Go further)
+Footer with copyright info and Social Media icons
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+---
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### 5. Surface
 
---------
+Colours: a combination of dark tones and vibrant colours makes it classy and contemporary while suggestive. (indicar paleta de cores?)
 
-Happy coding!
+Typography: choices favor comfort to the eye in mobile and are in line with a practical approach (indicar fontes escolhidas e ver se precisa acrescentar algo aqui)
+
+Images: high-quality, bright pictures with the power to appeal to visitors’ curiosity
+
+Maps: interactive maps allow visitors to check areas of interest (ver se tem alguma função nos mapas que não citei aqui)
+
+Design Choices (aqui acho que tem que ser depois de executar pra ver se tem algo que valha ser mencionado)
