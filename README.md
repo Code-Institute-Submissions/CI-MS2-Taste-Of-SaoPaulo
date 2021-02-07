@@ -2,8 +2,6 @@ Talk about the inspirations for the project
 
 MOCKUP IMAGE
 
-https://github.com/roliveira81/CI-MS2-Taste-Of-SaoPaulo/blob/master/assets/docs/WF_MS2.pdf
-
 ### Overview
 > This project aims to turn boring business travels into interesting opportunities to soak in the vibrant cultural life of the biggest city in Brazil. It’s all about stimulating: the curiosity of recurring and short-time travellers, emerging and thriving local businesses, a colourful approach to concrete jungle.
 
@@ -11,12 +9,12 @@ https://github.com/roliveira81/CI-MS2-Taste-Of-SaoPaulo/blob/master/assets/docs/
 
 #### User Stories
 
-> - _"I often travel to Sao Paulo for business, but can’t stand going to the same places every time"
-> - _"I’m travelling to Sao Paulo but won’t have much time there, so I’d like to learn what’s best in town"
-> - _"I want to better explore what’s near me next time I go to Sao Paulo"
-> - _"I have a few more days in Sao Paulo and I’m sick of staying in my hotel surroundings"
-> - _"I need an application that helps me on the go, while I’m moving through the city"
-> - _"I’d like to have recommendations of places and events, so I can make better use of my schedule"
+> - "I often travel to Sao Paulo for business, but can’t stand going to the same places every time"
+> - "I’m travelling to Sao Paulo but won’t have much time there, so I’d like to learn what’s best in town"
+> - "I want to better explore what’s near me next time I go to Sao Paulo"
+> - "I have a few more days in Sao Paulo and I’m sick of staying in my hotel surroundings"
+> - "I need an application that helps me on the go, while I’m moving through the city"
+> - "I’d like to have recommendations of places and events, so I can make better use of my schedule"
 
 ---
 
@@ -65,7 +63,7 @@ Fixed navigation bar (Home, SP, Trending, Go further)
 Footer with copyright info and Social Media icons
 
 ---
-
+MENTION TO https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ WEB CIFAR Youtube HTML and CSS class
 #### 5. Surface
 
 Colours: a combination of dark tones and vibrant colours makes it classy and contemporary while suggestive. (indicar paleta de cores?)
