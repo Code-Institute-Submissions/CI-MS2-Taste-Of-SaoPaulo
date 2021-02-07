@@ -2,6 +2,8 @@ Talk about the inspirations for the project
 
 MOCKUP IMAGE
 
+https://github.com/roliveira81/CI-MS2-Taste-Of-SaoPaulo/blob/master/assets/docs/WF_MS2.pdf
+
 ### Overview
 > This project aims to turn boring business travels into interesting opportunities to soak in the vibrant cultural life of the biggest city in Brazil. It’s all about stimulating: the curiosity of recurring and short-time travellers, emerging and thriving local businesses, a colourful approach to concrete jungle.
 
@@ -57,6 +59,7 @@ Social media links allow visitors to deep-dive in São Paulo to see a wider rang
 
 #### 4. Skeleton
 
+> - [Wireframes](https://github.com/roliveira81/CI-MS2-Taste-Of-SaoPaulo/blob/master/assets/docs/WF_MS2.pdf): One-page website with **4** main sections.
 One-page website with 4 main sections
 Fixed navigation bar (Home, SP, Trending, Go further)
 Footer with copyright info and Social Media icons
