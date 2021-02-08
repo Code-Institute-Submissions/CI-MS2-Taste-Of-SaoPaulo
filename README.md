@@ -63,7 +63,13 @@ Fixed navigation bar (Home, SP, Trending, Go further)
 Footer with copyright info and Social Media icons
 
 ---
+CREDIT: the layout and css is inspiration from WEB CIFAR youtube channel class
 MENTION TO https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ WEB CIFAR Youtube HTML and CSS class
+Tutorials mentioned in the video:
+Text Reveal Effect : https://youtu.be/LKNDqHtIkVg​
+Responsive Nav-bar : https://youtu.be/pZUQ7tlbi70​
+Hambuger : https://youtu.be/UfPQe-v8CeE
+
 #### 5. Surface
 
 Colours: a combination of dark tones and vibrant colours makes it classy and contemporary while suggestive. (indicar paleta de cores?)
@@ -75,3 +81,7 @@ Images: high-quality, bright pictures with the power to appeal to visitors’ cu
 Maps: interactive maps allow visitors to check areas of interest (ver se tem alguma função nos mapas que não citei aqui)
 
 Design Choices (aqui acho que tem que ser depois de executar pra ver se tem algo que valha ser mencionado)
+
+
+Visual Studio code : https://code.visualstudio.com/​
+Icons8 : https://icons8.com/

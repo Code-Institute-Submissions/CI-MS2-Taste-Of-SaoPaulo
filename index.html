@@ -7,40 +7,69 @@
     <link rel="stylesheet" href="assets/css/style.css">     
     <title>Taste of Sao Paulo</title>
 </head>
-<body>
-    <!-- header -->
-    <section id="header">
-    <div class="header container">
-        <div class="nav-bar">
-            <div class="logo">
-                <a href="#home"><h1>Taste of<span> Sao Paulo</span></h1></a>
+    <body>
+        <!-- header -->
+        <!--The hamburguer menu is inspired from WEB Cifar Tutorial-->
+        <section id="header">
+            <div class="header container">
+                <div class="nav-bar">
+                    <div class="logo">
+                        <a href="#home"><h1>Taste of<span> Sao Paulo</span></h1></a>
+                    </div>
+                    <div class="nav-list">
+                        <div class="hamburger"><div class="bar"></div></div>
+                        <ul>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#tours" data-after="Tours">Tours</a></li>
+                        <li><a href="#more" data-after="More">More</a></li>
+                        <li><a href="#info" data-after="Info">Info</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="nav-list">
-                <div class="hamburger"><div class="bar"></div></div>
-                <ul>
-                <li><a href="#about" data-after="About">About</a></li>
-                <li><a href="#tours" data-after="Tours">Tours</a></li>
-                <li><a href="#more" data-after="More">More</a></li>
-                <li><a href="#info" data-after="Info">Info</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </section>
-    <!-- end header -->    
+        </section>
+        <!-- end header -->    
 
-    <!-- home section  -->
-    <section id="home">
-    <div class="home container">
-        <div>
-            <h1>Have<span></span></h1>
-            <h1> a taste of <span></span></h1>
-            <h1>Sao Paulo <span></span></h1>
-            <a href="#tours" type="button" class="cta">Tours</a>
-        </div>
-    </div>
-    </section>
-    <!-- end home Section  --> 
-    <script src="assets/js/app.js"></script>    
-</body>
+        <!-- home section  -->
+        <section id="home">
+            <div class="home container">
+                <div>
+                    <!-- Text reveal effect is inspired from WEB Cifar Tutorial-->
+                    <h1>Have<span></span></h1>
+                    <h1> a taste of <span></span></h1>
+                    <h1>Sao Paulo <span></span></h1>
+                    <a href="#tours" type="button" class="cta">Tours</a>
+                </div>
+            </div>
+        </section>
+        <!-- end home Section  --> 
+
+        <!-- footer -->
+        <section id="footer">
+            <div class="footer container">
+                <div class="logo">
+                    <a href="#home"><h1>Taste of<span> Sao Paulo</span></h1></a>
+                </div>
+                <h2>Have a taste of Sao Paulo</h2>
+                <!--the social links was took from http://cidadedesaopaulo.com/-->
+                <div class="social-icon">
+                    <div class="social-item">
+                        <a href="https://www.facebook.com/experiencesaopaulo" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/saopauloturismo/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://twitter.com/turismosaopaulo" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.youtube.com/user/spturis" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/youtube.png"/></a>
+                    </div>
+                </div>
+                <p>Developed by <a href="https://github.com/roliveira81" target="_blank">@roliveira81</a></p>
+            </div>
+        </section>
+        <!-- end footer -->    
+        <script src="assets/js/app.js"></script>    
+    </body>
 </html>
