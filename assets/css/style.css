@@ -39,6 +39,19 @@ p {
 	letter-spacing: .05rem;
 }
 
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.section-title span {
+	color: crimson;
+}
+
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
@@ -259,6 +272,55 @@ p {
 }
 /* end home section */
 
+/* about section */
+#about .about {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+#about .col-left {
+	width: 250px;
+	height: 360px;
+}
+#about .col-right {
+	width: 100%;
+}
+#about .col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: .2rem;
+	margin-bottom: 10px;
+}
+#about .col-right p {
+	margin-bottom: 20px;
+    text-align: justify;	
+}
+#about .col-right .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+#about .col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+#about .col-left .about-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid crimson;
+	z-index: -1;
+}
+/* end about section */
+
 /* footer */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -333,6 +395,51 @@ p {
 }
 /* end keyframes */
 
+/* media query for tablet */
+@media only screen and (min-width: 768px) {
+	.cta {
+		font-size: 2.5rem;
+		padding: 20px 60px;
+	}
+
+	h1.section-title {
+		font-size: 6rem;
+	}
+
+	/* home */
+	#home h1 {
+		font-size: 7rem;
+	}
+	/* end home */
+
+	/* about */
+	#about .about {
+		flex-direction: row;
+		align-items: end;
+	}
+	#about .col-left {
+		width: 600px;
+		height: 400px;
+		padding-left: 60px;
+	}
+	#about .about .col-left .about-img::after {
+		left: -45px;
+		top: 34px;
+		height: 98%;
+		width: 98%;
+		border: 10px solid crimson;
+	}
+	#about .col-right {
+		text-align: left;
+		padding: 30px;
+	}
+	#about .col-right h1 {
+		text-align: left;
+	}
+	/* end about */	
+}
+/* end media query for tablet */
+
 /* media query for desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
@@ -356,10 +463,5 @@ p {
 		display: none;
 	}
 	/* End header */
-
-	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
-	}
 }
 /* end media query for desktop */
