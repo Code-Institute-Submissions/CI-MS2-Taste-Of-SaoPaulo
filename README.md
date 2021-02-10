@@ -92,3 +92,7 @@ The warning appears because any cookie that requests SameSite=None but is not ma
 To fix this, I had to add in javascript file the Secure attribute to your SameSite=None cookies. 
 A Secure cookie is only sent to the server with an encrypted request over the HTTPS protocol.
  
+
+Foreign exchange rates API with currency conversion
+Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank
+https://exchangeratesapi.io/ 

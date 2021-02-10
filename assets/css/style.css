@@ -405,7 +405,8 @@ p {
 }
 /* end footer */
 
-/* keyframes */
+/* keyframes
+credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 @keyframes hamburger_puls {
 	0% {
 		opacity: 1;
@@ -416,6 +417,7 @@ p {
 		transform: scale(1.4);
 	}
 }
+/* credit: responsive nav bar from WEB CIFAR https://youtu.be/pZUQ7tlbi70​  */
 @keyframes text_reveal_box {
 	50% {
 		width: 100%;
