@@ -85,3 +85,10 @@ Design Choices (aqui acho que tem que ser depois de executar pra ver se tem algo
 
 Visual Studio code : https://code.visualstudio.com/​
 Icons8 : https://icons8.com/
+
+
+Issue: Indicate whether to send a cookie in a cross-site request by specifying its SameSite attribute:
+The warning appears because any cookie that requests SameSite=None but is not marked Secure will be rejected. 
+To fix this, I had to add in javascript file the Secure attribute to your SameSite=None cookies. 
+A Secure cookie is only sent to the server with an encrypted request over the HTTPS protocol.
+ 

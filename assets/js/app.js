@@ -25,3 +25,6 @@ document.addEventListener('scroll', () => {
 		header.style.backgroundColor = 'transparent';
 	}
 });
+
+//Secure attribute to fix the warning message about SameSite cookie in a cross-site caused by Icons8 logos;
+document.cookie = "SameSite=None; Secure";
