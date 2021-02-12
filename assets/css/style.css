@@ -321,6 +321,143 @@ p {
 }
 /* end about section */
 
+/* tours section */
+#tours .tours {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#tours .tour-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#tours .tour-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#tours .tour-item {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(/assets/images/home01.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	cursor: pointer;	
+}
+#tours .tour-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: .9;
+	z-index: -1;
+}
+#tours .tour-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+#tours .tour-item h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#tours .tour-item p {
+	color: white;
+	text-align: left;
+}
+/* end tour section */
+
+/* tourDetails section */
+#tourDetails .tourDetails {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#tourDetails .tourDetails-header h1 {
+	margin-bottom: 50px;
+}
+#tourDetails .all-tourDetails {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#tourDetails .tourDetail-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#tourDetails .tourDetail-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#tourDetails .tourDetail-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+#tourDetails .tourDetail-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#tourDetails .tourDetail-info p {
+	color: white;
+}
+#tourDetails .tourDetail-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#tourDetails .tourDetail-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: .7;
+}
+#tourDetails .tourDetail-img img {
+	transition: .3s ease transform;
+}
+#tourDetails .tourDetail-item:hover .tourDetail-img img {
+	transform: scale(1.1);
+}
+
+
+/* end tourDetails section */
 
 /* info section */
 #info .info {
@@ -458,6 +595,38 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 	}
 	/* end home */
 
+	/* tours section */
+	#tours .tour-bottom .tour-item {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+	/* end tours section */
+
+	/* tourDetails */
+	#tourDetails .tourDetail-item {
+		flex-direction: row;
+	}
+	#tourDetails .tourDetail-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#tourDetails .tourDetail-item {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#tourDetails .all-tourDetails .tourDetail-info {
+		height: 100%;
+	}
+	#tourDetails .all-tourDetails .tourDetail-img {
+		height: 100%;
+	}
+	#map {
+		flex-basis: 100%;
+		height: 400px;
+	}
+	/* end tourDetail */
+
 	/* about */
 	#about .about {
 		flex-direction: row;
@@ -483,6 +652,7 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 		text-align: left;
 	}
 	/* end about */	
+
 
 	/* info  */
 	#info .info {
@@ -517,6 +687,11 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 		padding-left: 20px;
 	}
 	/* end info  */	
+
+	#map {
+		flex-basis: 100%;
+		height: 400px;
+	}
 }
 /* end media query for tablet */
 
@@ -543,5 +718,15 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 		display: none;
 	}
 	/* end header */
+
+	#tours .tour-bottom .tour-item {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}	
+
+	#map {
+		flex-basis: 100%;
+		height: 400px;
+	}
 }
 /* end media query for desktop */

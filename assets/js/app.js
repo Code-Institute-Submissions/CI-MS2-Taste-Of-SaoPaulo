@@ -31,7 +31,8 @@ document.addEventListener('scroll', () => {
 //end of credit responsive nav bar
 
 /*Foreign exchange rates API with currency conversion
-Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank*/
+Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank
+https://exchangeratesapi.io/ */
 const baseExchangeApiURL = "https://api.exchangeratesapi.io/latest?base=EUR&symbols=USD,BRL";
 
 function getExchangeCurrencyData(cb) {
@@ -55,7 +56,6 @@ function writeCurrencyInfo() {
 		Object.keys(data.rates).forEach(function(key) {
 			el.innerHTML += `<h2>1 ${data.base} = ${data.rates[key]} ${key} </h2>`;			
 		});
-		console.log(data);
 		// Credit: javascript date conversion 
 		// https://stackoverflow.com/questions/33299687/how-to-convert-dd-mm-yyyy-string-into-javascript-date-object/33299764
 		el.innerHTML += `<h2>last update: ${new Date(data.date).toLocaleString('en', { dateStyle: 'long' })}</h2>`;
