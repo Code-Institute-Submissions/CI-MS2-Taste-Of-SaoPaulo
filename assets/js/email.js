@@ -9,10 +9,11 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            toggleModal(); 
+            toggleModal("Thanks! <br>Soon we will get in touch with you offering a very good Sao Paulo attraction suggestion."); 
         },
         function(error) {
             console.log("FAILED", error);
+            toggleModal("Failed to attempt to submit your order. Please try again later."); 
         }
     );
     contactForm.name.value = "";
@@ -25,8 +26,10 @@ function sendMail(contactForm) {
 var modal = document.querySelector(".modal");
 var closeButton = document.querySelector(".close-button");
 
-function toggleModal() {
+//the original code was improved to set the modal message text dinamically
+function toggleModal(message) {
     modal.classList.toggle("show-modal");
+    document.getElementById("model-message").innerHTML = message;
 }
 
 function windowOnClick(event) {

@@ -1,4 +1,6 @@
-Talk about the inspirations for the project
+# TASTE OF SAO PAULO
+
+[LIVE SITE ON GITHUB PAGES]()
 
 MOCKUP IMAGE
 
@@ -27,53 +29,47 @@ Vivid images, curated content and maps are essential for this project.
 
 #### 1. Strategy
 
-Straightforward and enticing at the same time, the UX seeks a balance between relevant information and viable schedules. The outcome has to be the right amount of options to the right amount of time. 
+> Straightforward and enticing at the same time, the UX seeks a balance between relevant information and viable schedules. The outcome has to be the right amount of options to the right amount of time. 
 >
 > ##### Project Goals:
 >
-Become a reference on recommendations for varied types of business travellers
-Help users make the best use of free time while in Sao Paulo
-Promote tourism, portraying Sao Paulo as more than a financial and business centre
-Grow a valuable customer database to local businesses
+> - Become a reference on recommendations for varied types of business travellers
+> - Help users make the best use of free time while in Sao Paulo
+> - Promote tourism, portraying Sao Paulo as more than a financial and business centre
+> - Grow a valuable customer database to local businesses
 >
 > ##### Customer Goals:
 >
-Mobile-first approach, to help users on-the-go
-Interactive maps that allow users to navigate in their area
-Mail list to get recommendations and travel plans in advance
-Curated and easy to find information
-
-
+> - Mobile-first approach, to help users on-the-go
+> - Interactive maps that allow users to navigate in their area
+> - Mail list to get recommendations and travel plans in advance
+> - Curated and easy to find information
+>
 #### 2. Scope
-
-The idea is to keep it quick, simple and meaningful, just as our visitors' business trip. The challenge here is to be straightforward and enticing at the same time, taking into account the limited time our visitors will have to explore the city. For this reason, a constantly updated list of the top 10 things to do in Sao Paulo is the easiest way to help users create their own itineraries.
+>
+> The idea is to keep it quick, simple and meaningful, just as our visitors' business trip. The challenge here is to be straightforward and enticing at the same time, taking into account the limited time our visitors will have to explore the city. For this reason, a constantly updated list of the top 10 things to do in Sao Paulo is the easiest way to help users create their own itineraries.
 
 #### 3. Structure
 
-An inviting homepage bearing a carousel of appealing photos of Sao Paulo
-Summary about the city
-Curated content in 4 call-to-action clusters (Eat, Visit, Enjoy, Shop) that help users to create a tour itinerary
-Social media links allow visitors to deep-dive in São Paulo to see a wider range of options
+> - An inviting homepage bearing a carousel of appealing photos of Sao Paulo
+> - Summary about the city
+> - Curated content in 4 call-to-action clusters (Eat, Visit, Enjoy, Shop) that help users to create a tour itinerary
+> - Social media links allow visitors to deep-dive in São Paulo to see a wider range of options
 
 #### 4. Skeleton
 
 > - [Wireframes](https://github.com/roliveira81/CI-MS2-Taste-Of-SaoPaulo/blob/master/assets/docs/WF_MS2.pdf): One-page website with **4** main sections.
-One-page website with 4 main sections
-Fixed navigation bar (Home, About, Tours, More, Info)
-Footer with copyright info and Social Media icons
-
+> - One-page website with 4 main sections
+> - Fixed navigation bar (Home, About, Tours, More, Info)
+> - Footer with copyright info and Social Media icons
 
 #### 5. Surface
 
-Colours: a combination of dark tones and vibrant colours makes it classy and contemporary while suggestive. (indicar paleta de cores?)
-
-Typography: choices favor comfort to the eye in mobile and are in line with a practical approach (indicar fontes escolhidas e ver se precisa acrescentar algo aqui)
-
-Images: high-quality, bright pictures with the power to appeal to visitors’ curiosity
-
-Maps: interactive maps allow visitors to check areas of interest (ver se tem alguma função nos mapas que não citei aqui)
-
-Design Choices (aqui acho que tem que ser depois de executar pra ver se tem algo que valha ser mencionado)
+> - Colours: a combination of dark tones and vibrant colours makes it classy and contemporary while suggestive: black, white, crimson and #05303e
+> - Typography: choices favor comfort to the eye in mobile and are in line with a practical approach: "Montserrat"
+> - Images: high-quality, bright pictures with the power to appeal to visitors’ curiosity
+> - Maps: interactive maps allow visitors to check areas of interest and plan the commuting between the touristic attractions suggested
+> - Design Choices: modern and bold as the city of São Paulo with a simplicity touch
 
 
 ### Features
@@ -101,7 +97,7 @@ Design Choices (aqui acho que tem que ser depois de executar pra ver se tem algo
 
 > [Icons8](https://icons8.com/) Icons for Tour Section and Social Media links in Footer.
 > [Google Maps](https://maps.google.com/) - Google Maps API.
-> [Icons8](https://icons8.com/) - Interative Maps API
+> [Google Fonts](https://fonts.google.com/) - Overall Typography import.
 > [EmailJS](https://www.emailjs.com/) - Send e-Mail API  
 > [Exchange Rates API](https://exchangeratesapi.io/ ) - Exchange Rates API  
 
@@ -127,14 +123,12 @@ Design Choices (aqui acho que tem que ser depois de executar pra ver se tem algo
 ### Resources
 
 > - [Code Institute Course Content](https://courses.codeinstitute.net/) - Main source of fundamental knowledge.
-> - Code Institute **SLACK Community** - Main source of assistance
 > - [Stack Overflow](https://stackoverflow.com/) - General resource.
 > - [Web CIFAR youtube Channel](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
 > - [CSS-Tricks](https://css-tricks.com/) - General resource.
 > - [w3schools.com](https://w3schools.com.com/) - General resource.
 > - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
 > - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
-> - [Jim Lynx Github](https://github.com/JimLynx)
 
 ---
 
@@ -163,39 +157,33 @@ iframes. Ref: [Stack Overflow](https://stackoverflow.com/a/27453371/14197670). I
 >    * Tested completed form submission and modal appears confirming email has been sent.
 >    * Confirmed that form resets to blank fields after form submission has been completed.
 >  * Passed all code through [JSHINT](https://jshint.com/) and the following were rectified as a result. 
->    * Changed country api values to dot notation.
->    * Added let keyword to api variables for better practice (i.e. _for (let language in langData)_, instead of _for (language in langData)_)
 >
 > ### GENERAL (Site Testing on live page)
 > 
 >   * Navigation
 >     * Clicked Navigation bar Logo/Text and confirmed it returns to Home/Intro.
 >     * Clicked About on the navbar and scrolls to correct section.
->     * Clicked Game Reserves on the navbar and scrolls to correct section.
->     * Clicked Contact on the navbar and scrolls to correct section.
->   * About Section
->     * Clicked URL _href_ from "Info supplied by **REST Countries API**" and site opened on the same tab in the browser. Added target="_blank" (which was missing). Retested and opens in a new tab in the browser as desired.
->     * Clicked on each link for "[Excerpt from Official Park Website.]" and all are opening in a new tab in the browser as expected.
+>     * Clicked Tour on the navbar and scrolls to correct section.
+>     * Clicked More on the navbar and scrolls to correct section.
+>   * Tour Section
+>     * Clicked on each tour option and the tour details section opens and scrolls correctly and shows the accurate content and the points marked on maps
 >   * Contact section
 >     * Clicked Submit button without any form entries. Expected warning popup retuned of "Please fill out this field". Further, tested all required form fields for same.
->     * Checked that Radio buttons give option for either/or selection, and not both.
+>     * The modal window with success message appears correctly after the form submission.
 >
 > ### RESPONSIVENESS
 >
->   * DevTools - Devices tested across a range of widths: iphone5(320px) | Samsung S5 (360px) | iPhone 6/7/8/X (375px) | iPhone 6/7/8 Plus (414px) | iPad (768px) | iPad Pro (1024px) | Laptop (1200px) | Large Desktop screen (1920px)
->   * Viewed site on above range (including Responsive mode) on various browsers: Google Chrome, Firefox, Opera, Safari 
->   * Viewed on physical devices: small phone (320px) | large phone (414px) | large tablet (768px) | Medium laptop (1366px) | Large Desktop screen (1920px)
+>   * Application tested on all different sizes by Google DevTools: from 360 x 640 up to 1024 x 1366
+>   * Viewed site on above range (including Responsive mode) on : Google Chrome, Edge 
+>   * Viewed on physical devices: large phone (414px) | large tablet (768px) | Medium laptop (1366px) | Large Desktop screen (1920px)
 
 ---
 
 ### Code validity
 
 > HTML - [W3C](https://validator.w3.org/) - Markup Validation
->
 > CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
->
-> JavaScript - [JSHINT](https://jshint.com/) - JavaScript code warning & error check
->
+> JavaScript - [JSHINT](https://jshint.com/) - JavaScript code warning & error check. It threw 11 warnings regarding ES6
 > TAGS - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly.
 
 ---
@@ -203,9 +191,6 @@ iframes. Ref: [Stack Overflow](https://stackoverflow.com/a/27453371/14197670). I
 ### Version Control
 
 > - Used Git for version control.
-> - Branches were created to work on alternative layout and buttons.
-> - The branches were then merged with the master branch after any conflicts were addressed.
-
 ---
 
 ### Deployment
@@ -213,7 +198,7 @@ iframes. Ref: [Stack Overflow](https://stackoverflow.com/a/27453371/14197670). I
 This project has been deployed on GitHub Pages with the following process:
 
 > - All code was written on VSCode, a local IDE (Integrated Development Environment).
-> - The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/JimLynx/CI-MS2-Safari-Africa).
+> - The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/roliveira81/CI-MS2-Taste-Of-SaoPaulo).
 > - Under the Settings section of the GitHub repository, scrolled down to GitHub Pages section.
 > - Under 'Source' drop-down, the 'Master branch' was selected.
 > - Once selected, this publishes the project to GitHub Pages and displays the site URL.
@@ -227,71 +212,26 @@ This project has been deployed on GitHub Pages with the following process:
 
 > ##### Media
 >
-> - Site background image from [Public Domain Pictures](https://www.publicdomainpictures.net/en/view-image.php?image=129300&picture=seamless-zebra-pattern)
-> - Intro carousel images from [Unsplash](https://unsplash.com/)
-> - About page image from [Graham Springer Fine Art](http://www.grahamspringer.com/)
-> - Africa outline image from [Pintrest](https://www.pinterest.ie/pin/77616793558531466/)
-> - Combination of above 2 images into final product - self-made on Photoshop
-> - Reserve placeholder image and footer (edited for needs) taken image from [PNGFuel](https://www.pngfuel.com/)
-> - Preload antelope animation .gif from [Icons8](https://icons8.com/preloaders/en/people_and_animals)
+> - Looking for training to create HTML layouts independently of bootstrap use I ended up on [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ) channel, where I did the three hours class and build the structure of this layout
+> - The layout conception from [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
+> - Text Reveal Effect [WEB CIFAR](https://youtu.be/LKNDqHtIkVg​)
+> - Responsive Nav-bar [WEB CIFAR](https://youtu.be/pZUQ7tlbi70​)
+> - Hambuger [WEB CIFAR](https://youtu.be/UfPQe-v8CeE)
+> - Home, About and Tour sections images from [Pexels.com](https://www.pexels.com)
+> - All the icons from [Icons8](https://icons8.com/)
+> - As a model for Readme doc from [Jim Lynx Github](https://github.com/JimLynx)
+> - The form feedback modal from [sabe.io](https://sabe.io/tutorials/how-to-create-modal-popup-box)
 
 > ##### Content
 >
-> - Tim Nelsons's extensive documentation on LeafletJS Maps from his MS2 project
->
-> ##### Bootstrap 4 CDN Boilerplate
->
-> - I've taken advantage of _Simen Daehlin's_ template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet)
+> - The content was extract from the official content web site [CidadeDeSaoPaulo](http://cidadedesaopaulo.com/)
+> - The selection and compound of the tours and the texts was self-made
 >
 > ##### Code Snippets
 >
-> - CSS: Main Country and Reserve Button styling adapted from [Button Generator](https://www.bestcssbuttongenerator.com/#/11*)
-> - Dropdown buttons adapted from [Bootstrap](https://getbootstrap.com/docs/4.0/components/dropdowns/)
-> - Navigation bar adapted from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
-> - Smooth scrolling (using Jquery) from [W3SCHOOLS](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
-> - Tim Nelson - Showing only map tiles for Africa (avoid loading world map)
-> - HTML, CSS & JavaScript: Intro carousel & transition function from [CSS Tricks](https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/)
-> - JavaScript: find by location in array of objects [Stack Overflow](https://stackoverflow.com/a/35398031/13484385*/)
-> - iframe element 'stop on click' function help from John Traas (CI student) and final solution (due to stopVideo method no longer working on iframes) from [Stack Overflow](https://stackoverflow.com/a/30358006/14197670)
+> - CSS: Layout structure adapted from [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
+> - HTML, CSS e JavaScript Modal structure adapted from [sabe.io](https://sabe.io/tutorials/how-to-create-modal-popup-box*/)
+> - Navigation bar adapted from [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
+> - Send email and Map Init JavaScript functions from Rosie's project [CodeInstitute Class](https://courses.codeinstitute.net/)
 
 ---
-
-> ##### Acknowledgments
->
-> I would like to thank:
->
-> - My mentor, **Mark Railton** for his guidance and advice on this project before submission.
-> - **Bim Williams** and **JoWings** for their continued support and guidance.
-> - **Tim Nelson** for his wealth of knowledge on LeafletJS and taking the time to walk me through bugs experienced.
-> - **James Lowe** for his help and patience in advice on the country API.
-> - **John Traas** for his help with overcominmg the barrier with videos not stopping on button click.
-> - **CI staff** and **Slack Community** for always being on-hand with questions posted and assistance requests.
-> - Everyone that takes part in the Slack calls, specifically from the **#In-It-Together** and **#Study-Group** channels.
-
-### Support
-
-> For any issue resolution or assistance, please email Jim Morel on jim.lynx@gmail.com
-
----
-
--------------------------------------------------------------------------------------------------------------------------
-
----
-CREDIT: the layout and css is inspiration from WEB CIFAR youtube channel class
-MENTION TO https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ WEB CIFAR Youtube HTML and CSS class
-Tutorials mentioned in the video:
-Text Reveal Effect : https://youtu.be/LKNDqHtIkVg​
-Responsive Nav-bar : https://youtu.be/pZUQ7tlbi70​
-Hambuger : https://youtu.be/UfPQe-v8CeE
-
-
-
-
- 
-
-Foreign exchange rates API with currency conversion
-Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank
-https://exchangeratesapi.io/ 
-
-Contact form
-Email sent via EmailJS.com
