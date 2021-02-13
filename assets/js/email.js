@@ -9,6 +9,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            toggleModal(); 
         },
         function(error) {
             console.log("FAILED", error);
@@ -16,6 +17,23 @@ function sendMail(contactForm) {
     );
     contactForm.name.value = "";
     contactForm.email.value = "";
-    contactForm.message.value = "";    
+    contactForm.message.value = "";   
     return false;  // To block from loading a new page
 }
+
+/*credit: code from https://sabe.io/tutorials/how-to-create-modal-popup-box*/
+var modal = document.querySelector(".modal");
+var closeButton = document.querySelector(".close-button");
+
+function toggleModal() {
+    modal.classList.toggle("show-modal");
+}
+
+function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
+    }
+}
+
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);

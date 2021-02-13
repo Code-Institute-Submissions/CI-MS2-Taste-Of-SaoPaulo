@@ -62,7 +62,9 @@ function writeCurrencyInfo() {
     });
 }
 
+//execute the function responsible for Exchange rates infos on Info section 
 writeCurrencyInfo();
 
 //Secure attribute to fix the warning message about SameSite cookie in a cross-site caused by Icons8 logos;
 document.cookie = "SameSite=None; Secure";
+

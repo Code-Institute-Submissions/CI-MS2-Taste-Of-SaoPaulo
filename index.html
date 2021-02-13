@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">     
+    <link rel="stylesheet" href="assets/css/style.css">   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (
+            function() {
+                emailjs.init("user_0BZMRCosKk3Deu2SP4gSu");
+                })();
+    </script>       
     <title>Taste of Sao Paulo</title>
 </head>
     <body>
@@ -162,6 +169,7 @@
         <!-- end tourDetail section -->
 
         <!-- more section -->
+        <!--Inspired by the Rosie's project from a CI class-->
         <section id="more">
             <div class="more container">
                 <div><h1 class="section-title">Get <span>your</span> tour</h1></div>
@@ -240,6 +248,16 @@
             </div>
         </section>
         <!-- end footer -->    
+
+        <!--
+        /*credit: html from https://sabe.io/tutorials/how-to-create-modal-popup-box*/
+        -->
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-button">×</span>
+                <h1>Thanks! <br>Soon we will get in touch with you offering a very good Sao Paulo attraction suggestion.</h1>
+            </div>
+        </div>
 
         <!--scripts-->
         <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>

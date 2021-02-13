@@ -18,7 +18,7 @@ function tourSelected(tourId) {
 }
 
 /*
-google init function. It was changed to get dinamicaly the array of locations to be marked
+google init function. It was changed to get dinamically the array of locations to be marked
 (passed by tourSelected function) and sets the center point of the map to the 2 index of locations
 array, centralizing the map exactly where the user is going to see.
 */
