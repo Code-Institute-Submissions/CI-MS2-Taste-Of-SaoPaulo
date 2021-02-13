@@ -128,8 +128,8 @@
                             <h1>tourDetail 1</h1>
                             <h2>Feature 1</h2>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-                            </div>
-                            <div class="tourDetail-img">
+                        </div>
+                        <div class="tourDetail-img">
                             <img src="/assets/images/home01.jpg" alt="img">
                         </div>
                     </div>
@@ -138,8 +138,8 @@
                             <h1>Feature 2</h1>
                             <h2>Coding is Love</h2>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-                            </div>
-                            <div class="tourDetail-img">
+                        </div>
+                        <div class="tourDetail-img">
                             <img src="/assets/images/home01.jpg" alt="img">
                         </div>
                     </div>
@@ -148,8 +148,8 @@
                             <h1>Feature 3</h1>
                             <h2>Coding is Love</h2>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-                            </div>
-                            <div class="tourDetail-img">
+                        </div>
+                        <div class="tourDetail-img">
                             <img src="/assets/images/home01.jpg" alt="img">
                         </div>
                     </div>     
@@ -159,8 +159,25 @@
                 </div>
             </div>  
         </section>
-
         <!-- end tourDetail section -->
+
+        <!-- more section -->
+        <section id="more">
+            <div class="more container">
+                <div><h1 class="section-title">Get <span>your</span> tour</h1></div>
+                <h2>A city of numbers</h2>
+                <div class="more-form">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="fullname" class="more-form-input" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="more-form-input" placeholder="e-Mail" required />
+                        <textarea rows="5" name="message" id="message" class="more-form-input" placeholder="Message" required></textarea>
+                        <div class="more-form-button">
+                            <button type="submit" class="cta">Send Tour Request</button>
+                        </div>
+                    </form>
+                </div>                
+        </section>
+        <!-- endinfo section -->
 
         <!-- info section -->
         <section id="info">
@@ -227,8 +244,9 @@
         <!--scripts-->
         <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ImSZAMzJp1dz8GebhxeIzGwxI5sgjtQ&callback=initMap&libraries=&v=weekly" async></script>            
-        <script src="assets/js/tours.js"></script>    
         <script src="assets/js/app.js"></script>    
+        <script src="assets/js/tours.js"></script>    
+        <script src="assets/js/email.js"></script>    
         <!--scripts-->
     </body>
 </html>

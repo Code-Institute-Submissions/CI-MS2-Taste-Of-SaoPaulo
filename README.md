@@ -96,3 +96,6 @@ A Secure cookie is only sent to the server with an encrypted request over the HT
 Foreign exchange rates API with currency conversion
 Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank
 https://exchangeratesapi.io/ 
+
+Contact form
+Email sent via EmailJS.com
