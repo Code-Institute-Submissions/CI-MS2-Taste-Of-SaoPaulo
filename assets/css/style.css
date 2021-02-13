@@ -385,6 +385,9 @@ p {
 /* end tour section */
 
 /* tourDetails section */
+#tourDetails{
+	display: none;
+}
 #tourDetails .tourDetails {
 	flex-direction: column;
 	max-width: 1200px;
@@ -621,9 +624,17 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 
 /* media query for mobile */
 @media only screen and (max-width: 768px) {
+	#tourDetails .tourDetail-map {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 80%;
+		margin: 20px auto;
+		overflow: hidden;
+		border-radius: 10px;
+	}
 	#map {
 		min-height: 360px;
-		overflow: visible !important;
 	}
 }
 
@@ -669,6 +680,15 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 	}
 	#tourDetails .all-tourDetails .tourDetail-img {
 		height: 100%;
+	}
+	#tourDetails .tourDetail-map {
+		flex-direction: row;
+	}
+	#tourDetails .tourDetail-map {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
 	}
 	#map {
 		min-height: 360px;
