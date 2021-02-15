@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Taste of Sao Paulo">
+    <meta name="description" content="Have a test of Sao Paulo">    
     <link rel="stylesheet" href="assets/css/style.css">   
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (
-            function() {
-                emailjs.init("user_0BZMRCosKk3Deu2SP4gSu");
-                })();
-    </script>       
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <title>Taste of São Paulo</title>
 </head>
     <body>
@@ -45,7 +41,7 @@
                     <h1>Have<span></span></h1>
                     <h1> a taste of <span></span></h1>
                     <h1>São Paulo <span></span></h1>
-                    <a href="#tours" type="button" class="cta">view more</a>
+                    <a href="#tours" type="button" class="cta" value="">view more</a>
                 </div>
             </div>
         </section>
@@ -81,7 +77,7 @@
                     </p>
                     <p>    
                         São Paulo is also the capital of titles and records. Each year, the city surpasses itself and gest new recognitions from some influent magazine or international consultancy firms. Some of the last honors the city has received are:<br/>
-                        – 5rd best Brazilian destination  (Trip Advisor, 2016);<br/>
+                        – 3rd best Brazilian destination  (Trip Advisor, 2016);<br/>
                         – Main destination in South America until 2017. (Global Destination Cities Index, 2016);<br/>
                         – The city is the one that hosts the most international events in Brazil. (ICCA – International Congress and Convention Association);<br/>
                         – One of the destinations with the 10 most impacting skylines of the world. (According to the research made by the German group Emporis);<br/>
@@ -98,7 +94,7 @@
             <div class="tours container">
                 <div class="tour-top">
                     <h1 class="section-title">To<span>u</span>rs</h1>
-                    <p>Got spare time in SP? Don't waste it browsing what to do. Here are our recommended tours for this week:</p>
+                    <h2>Got spare time in SP? Don't waste it browsing what to do. Here are our recommended tours for this month</h2>
                 </div>
                 <div class="tour-bottom">
                     <div class="tour-item" id="tour1" onclick="tourSelected(this.id);">
@@ -139,7 +135,7 @@
                     <div class="tourDetail-item">
                         <div class="tourDetail-info">
                             <h1>Point A</h1>
-                            <a href="#" id="a-pointA" target="_blank" title="Learn more"><h2 id="h2-pointA"></h2></a>
+                            <a href="#" id="a-pointA" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointA"></h2></a>
                             <p id="p-pointA"></p>
                         </div>
                         <div class="tourDetail-img">
@@ -149,7 +145,7 @@
                     <div class="tourDetail-item">
                         <div class="tourDetail-info">
                             <h1>Point B</h1>
-                            <a href="#" id="a-pointB" target="_blank" title="Learn more"><h2 id="h2-pointB"></h2></a>
+                            <a href="#" id="a-pointB" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointB"></h2></a>
                             <p id="p-pointB"></p>
                         </div>
                         <div class="tourDetail-img">
@@ -159,7 +155,7 @@
                     <div class="tourDetail-item">
                         <div class="tourDetail-info">
                             <h1>Point C</h1>
-                            <a href="#" id="a-pointC" target="_blank" title="Learn more"><h2 id="h2-pointC"></h2></a>
+                            <a href="#" id="a-pointC" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointC"></h2></a>
                             <p id="p-pointC"></p>
                         </div>
                         <div class="tourDetail-img">
@@ -177,7 +173,7 @@
             <div class="more container">
                 <div class="more-top">
                     <h1 class="section-title">Get <span>your</span> tour</h1>
-                    <p>Eager for more? Tell us your interests and travel plans to get a custom tour to SP</p>
+                    <h2>Eager for more? Tell us your interests and travel plans to get a custom tour to SP</h2>
                 </div>
                 <div class="more-form">
                     <form onsubmit="return sendMail(this);">

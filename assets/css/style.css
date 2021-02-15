@@ -333,6 +333,12 @@ p {
 	max-width: 550px;
 	margin: 0 auto;
 }
+#tours .tour-top h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: .2rem;
+	margin-bottom: 10px;
+}
 #tours .tour-bottom {
 	display: flex;
 	align-items: center;
@@ -425,7 +431,6 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-
 #tourDetails .tourDetail-info {
 	padding: 30px;
 	flex-basis: 50%;
@@ -488,7 +493,12 @@ p {
 	max-width: 550px;
 	margin: 0 auto;
 }
-
+#more .more-top h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: .2rem;
+	margin-bottom: 10px;
+}
 #more .more-form{
 	padding-top: 10px;
     margin: 0 auto;

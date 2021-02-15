@@ -1,5 +1,11 @@
 //Email sent via EmailJS.com
 function sendMail(contactForm) {
+        //to be initialized only when emails are shoot
+        (
+        function() {
+            emailjs.init("user_0BZMRCosKk3Deu2SP4gSu");
+            })();
+
     emailjs.send("service_a4q9k6q","test",{
         from_name: contactForm.name.value,
         to_name: contactForm.email.value,
