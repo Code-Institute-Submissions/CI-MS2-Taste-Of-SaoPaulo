@@ -53,12 +53,14 @@ Vivid images, curated content and maps are essential for this project.
 > - An inviting homepage bearing an inviting and representative photo of São Paulo. We want people to feel that this is a place where there's a lot to do!
 > - Summary about the city
 > - Curated thematic tours (4 options)
+> - Request form for personalized tours
+> - Useful information section
 > - Social media links allow visitors to deep-dive in São Paulo to see a wider range of options
 
 #### 4. Skeleton
 
-> - [Wireframes](https://github.com/roliveira81/CI-MS2-Taste-Of-SaoPaulo/blob/master/assets/docs/WF_MS2.pdf): One-page website with **4** main sections.
-> - One-page website with 4 main sections
+> - [Wireframes](https://github.com/roliveira81/CI-MS2-Taste-Of-SaoPaulo/blob/master/assets/docs/WF_MS2.pdf): 
+> - One-page website with **4** main sections.
 > - Fixed navigation bar (Home, About, Tours, More, Info)
 > - Footer with copyright info and Social Media icons
 
@@ -81,7 +83,7 @@ Vivid images, curated content and maps are essential for this project.
 > - About section features São Paulo city.
 > - Tours section suggests tour options to users.
 > - More section has a Contact Form to allow users to request a personalized tour.
-> - Info section brings some important touristic informations and by the Exchange Rates API the current exchange rate. 
+> - Info section with emergency phone numbers, tourist guide locations and API calling returning current exchange rates. 
 > - Footer with social media links.
 
 ### Technologies Used
