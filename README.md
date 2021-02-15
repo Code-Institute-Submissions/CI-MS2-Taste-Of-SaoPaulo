@@ -1,4 +1,4 @@
-# TASTE OF SAO PAULO
+# TASTE OF SÃO PAULO
 
 [LIVE SITE ON GITHUB PAGES]()
 
@@ -11,10 +11,10 @@ MOCKUP IMAGE
 
 #### User Stories
 
-> - "I often travel to Sao Paulo for business, but can’t stand going to the same places every time"
-> - "I’m travelling to Sao Paulo but won’t have much time there, so I’d like to learn what’s best in town"
-> - "I want to better explore what’s near me next time I go to Sao Paulo"
-> - "I have a few more days in Sao Paulo and I’m sick of staying in my hotel surroundings"
+> - "I often travel to São Paulo for business, but can’t stand going to the same places every time"
+> - "I’m travelling to São Paulo but won’t have much time there, so I’d like to learn what’s best in town"
+> - "I want to better explore what’s near me next time I go to São Paulo"
+> - "I have a few more days in São Paulo and I’m sick of staying in my hotel surroundings"
 > - "I need an application that helps me on the go, while I’m moving through the city"
 > - "I’d like to have recommendations of places and events, so I can make better use of my schedule"
 
@@ -22,7 +22,7 @@ MOCKUP IMAGE
 
 ### UX
 
-This is a website addressed to business people of all ages, genders, nationalities and industries who are willing to explore Sao Paulo from beyond the glass-walled buildings. The main functionality of this website is to offer options of what to do in the free time according to users preferences and time spent in the city.
+This is a website addressed to business people of all ages, genders, nationalities and industries who are willing to explore São Paulo from beyond the glass-walled buildings. The main functionality of this website is to offer options of what to do in the free time according to users preferences and time spent in the city.
 Vivid images, curated content and maps are essential for this project.
 
 ---
@@ -34,8 +34,8 @@ Vivid images, curated content and maps are essential for this project.
 > ##### Project Goals:
 >
 > - Become a reference on recommendations for varied types of business travellers
-> - Help users make the best use of free time while in Sao Paulo
-> - Promote tourism, portraying Sao Paulo as more than a financial and business centre
+> - Help users make the best use of free time while in São Paulo
+> - Promote tourism, portraying São Paulo as more than a financial and business centre
 > - Grow a valuable customer database to local businesses
 >
 > ##### Customer Goals:
@@ -47,13 +47,12 @@ Vivid images, curated content and maps are essential for this project.
 >
 #### 2. Scope
 >
-> The idea is to keep it quick, simple and meaningful, just as our visitors' business trip. The challenge here is to be straightforward and enticing at the same time, taking into account the limited time our visitors will have to explore the city. For this reason, a constantly updated list of the top 10 things to do in Sao Paulo is the easiest way to help users create their own itineraries.
-
+> The idea is to keep it quick, simple and meaningful, just as our visitors' business trip. The challenge here is to be straightforward and enticing at the same time, taking into account the limited time our visitors will have to explore the city. For this reason, a set of always updated seasonal tours according to the city agenda is a valuable resource to explore it.
 #### 3. Structure
 
-> - An inviting homepage bearing a carousel of appealing photos of Sao Paulo
+> - An inviting homepage bearing an inviting and representative photo of São Paulo. We want people to feel that this is a place where there's a lot to do!
 > - Summary about the city
-> - Curated content in 4 call-to-action clusters (Eat, Visit, Enjoy, Shop) that help users to create a tour itinerary
+> - Curated thematic tours (4 options)
 > - Social media links allow visitors to deep-dive in São Paulo to see a wider range of options
 
 #### 4. Skeleton
@@ -79,10 +78,10 @@ Vivid images, curated content and maps are essential for this project.
 > - Designed with HTML5, CSS3, JavaScript.
 > - Home/Landing page with 4 pages in total.
 > - Fixed navigation allows the user to easily navigate, regardless of which page visited.
-> - About section feature the Sao Paulo city.
-> - Tours section gives the suggested tours options to the users.
-> - More section has a Contact Form to allow the users to request a personalized tour suggestion.
-> - Info section bring some important touristic informations and by the Exchange Rates API the current exchange rate. 
+> - About section features São Paulo city.
+> - Tours section suggests tour options to users.
+> - More section has a Contact Form to allow users to request a personalized tour.
+> - Info section brings some important touristic informations and by the Exchange Rates API the current exchange rate. 
 > - Footer with social media links.
 
 ### Technologies Used

@@ -12,7 +12,7 @@
                 emailjs.init("user_0BZMRCosKk3Deu2SP4gSu");
                 })();
     </script>       
-    <title>Taste of Sao Paulo</title>
+    <title>Taste of São Paulo</title>
 </head>
     <body>
         <!-- header -->
@@ -20,7 +20,7 @@
             <div class="header container">
                 <div class="nav-bar">
                     <div class="logo">
-                        <a href="#home"><h1>Taste of<span> Sao Paulo</span></h1></a>
+                        <a href="#home"><h1>Taste of<span> São Paulo</span></h1></a>
                     </div>
                     <div class="nav-list">
                         <!--credit: The hamburguer menu is from WEB Cifar Tutorial-->
@@ -44,7 +44,7 @@
                     <!-- credit: Text reveal effect is inspired from WEB Cifar Tutorial-->
                     <h1>Have<span></span></h1>
                     <h1> a taste of <span></span></h1>
-                    <h1>Sao Paulo <span></span></h1>
+                    <h1>São Paulo <span></span></h1>
                     <a href="#tours" type="button" class="cta">view more</a>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="col-right">
-                    <h1 class="section-title">About <span>Sao Paulo</span></h1>
+                    <h1 class="section-title">About <span>São Paulo</span></h1>
                     <h2>A city of numbers</h2>
                     <p> There are over 12 million inhabitants that share space with 14,9 million of tourists per year. It is 1,521 km² wide, offering several interesting places to meet, restaurants to taste different gastronomies, malls and many shopping centers for all kinds of goods. And even though buildings surround it, there are lots of parks and green areas.Speaking of it, here are some numbers regarding what “Paulistanos” and tourists can find on the city:<br/>
                         320 hotels (44,000 rooms)<br/>
@@ -94,29 +94,29 @@
         <section id="tours">
             <div class="tours container">
                 <div class="tour-top">
-                <h1 class="section-title">To<span>u</span>rs</h1>
-                <p>about the tours plans</p>
+                    <h1 class="section-title">To<span>u</span>rs</h1>
+                    <p>Got spare time in SP? Don't waste it browsing what to do. Here are our recommended tours for this week:</p>
                 </div>
                 <div class="tour-bottom">
                     <div class="tour-item" id="tour1" onclick="tourSelected(this.id);">
                         <div class="icon"><img src="https://img.icons8.com/doodle/100/000000/italy.png"/></div>
-                        <h2>The Italian Sao Paulo</h2>
-                        <p>In this tour we will go through three emblematic places of influence of Italian immigration to Brazil and especially to Sao Paulo.</p>
+                        <h2>Italian S. Paulo</h2>
+                        <p>The Italian accent in São Paulo's cultural melting pot</p>
                     </div>
                     <div class="tour-item" id="tour2" onclick="tourSelected(this.id);">
                         <div class="icon"><img src="https://img.icons8.com/doodle/100/000000/museum.png"/></div>
-                        <h2>Top 3 Museums</h2>
-                        <p></p>
+                        <h2>Culture break </h2>
+                        <p>There's more to São Paulo's glass walls than business</p>
                     </div>
                     <div class="tour-item" id="tour3" onclick="tourSelected(this.id);">
-                        <div class="icon"><img src="https://img.icons8.com/dusk/100/000000/dancing-party.png"/></div>
-                        <h2>Fun</h2>
-                        <p></p>
+                        <div class="icon"><img src="https://img.icons8.com/doodle/100/000000/user-location.png"/></div>
+                        <h2>SP In & Out</h2>
+                        <p>The best of indoor and outdoor activities</p>
                     </div>
                     <div class="tour-item" id="tour4" onclick="tourSelected(this.id);">
-                        <div class="icon"><img src="https://img.icons8.com/cute-clipart/100/000000/shop.png"/></div>
-                        <h2>Shopping</h2>
-                        <p></p>
+                        <div class="icon"><img src="https://img.icons8.com/doodle/100/000000/gift.png"/></div>
+                        <h2>ShoP</h2>
+                        <p>Take a piece (or more) of São Paulo with you</p>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@
                             <p id="p-pointA"></p>
                         </div>
                         <div class="tourDetail-img">
-                            <img id="img-pointA" src="/assets/images/home01.jpg" alt="img">
+                            <img id="img-pointA" src="assets/images/home01.jpg" alt="img">
                         </div>
                     </div>
                     <div class="tourDetail-item">
@@ -150,7 +150,7 @@
                             <p id="p-pointB"></p>
                         </div>
                         <div class="tourDetail-img">
-                            <img id="img-pointB" src="/assets/images/home01.jpg" alt="img">
+                            <img id="img-pointB" src="assets/images/home01.jpg" alt="img">
                         </div>
                     </div>
                     <div class="tourDetail-item">
@@ -160,7 +160,7 @@
                             <p id="p-pointC"></p>
                         </div>
                         <div class="tourDetail-img">
-                            <img id="img-pointC" src="/assets/images/home01.jpg" alt="img">
+                            <img id="img-pointC" src="assets/images/home01.jpg" alt="img">
                         </div>
                     </div>                                 
                 </div>
@@ -172,8 +172,10 @@
         <!--Inspired by the Rosie's project from a CI class-->
         <section id="more">
             <div class="more container">
-                <div><h1 class="section-title">Get <span>your</span> tour</h1></div>
-                <h2>A city of numbers</h2>
+                <div class="more-top">
+                    <h1 class="section-title">Get <span>your</span> tour</h1>
+                    <p>Eager for more? Tell us your interests and travel plans</br>to get a custom tour to SP</p>
+                </div>
                 <div class="more-form">
                     <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="more-form-input" placeholder="Name" required />
@@ -227,9 +229,9 @@
         <section id="footer">
             <div class="footer container">
                 <div class="logo">
-                    <a href="#home"><h1>Taste of<span> Sao Paulo</span></h1></a>
+                    <a href="#home"><h1>Taste of<span> São Paulo</span></h1></a>
                 </div>
-                <h2>Have a taste of Sao Paulo</h2>
+                <h2>Have a taste of São Paulo</h2>
                 <!--the social links was took from http://cidadedesaopaulo.com/-->
                 <div class="social-icon">
                     <div class="social-item">

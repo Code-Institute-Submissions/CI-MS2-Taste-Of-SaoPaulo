@@ -32,7 +32,7 @@ img {
 
 p {
 	color: black;
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
 	font-weight: 300;
@@ -209,7 +209,7 @@ p {
 /* home section */
 #home {
     /* CREDIT: .jpg from https://www.pexels.com/pt-br/foto/arquitetura-brasil-ponte-espaco-5047706/ */
-	background-image: url(/assets/images/home01.jpg);
+	background-image: url(../images/home01.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -330,7 +330,7 @@ p {
 	padding: 100px 0;
 }
 #tours .tour-top {
-	max-width: 500px;
+	max-width: 550px;
 	margin: 0 auto;
 }
 #tours .tour-bottom {
@@ -348,7 +348,6 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(/assets/images/home01.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -426,17 +425,20 @@ p {
 	color: white;
 }
 #tourDetails .tourDetail-info h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 500;
 }
 #tourDetails .tourDetail-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
+	color: crimson;
 }
 #tourDetails .tourDetail-info p {
 	color: white;
+	font-size: 1.4rem;
 }
+
 #tourDetails .tourDetail-img {
 	flex-basis: 50%;
 	height: 300px;
@@ -464,13 +466,14 @@ p {
 /* section more */
 #more .more {
 	flex-direction: column;
-	max-width: 1200px;
+	text-align: center;
+	max-width: 1500px;
 	margin: 0 auto;
+	padding: 100px 0;
 }
-#more h2{
-	font-size: 1.8rem;
-	font-weight: 500;
-	margin-top: 10px;
+#more .more-top {
+	max-width: 550px;
+	margin: 0 auto;
 }
 
 #more .more-form{
@@ -609,6 +612,10 @@ p {
     padding: 1rem 1.5rem;
     width: 50rem;
     border-radius: 0.5rem;
+}
+
+.model-content h1{
+	text-align: center;
 }
 .close-button {
     float: right;

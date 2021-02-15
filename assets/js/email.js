@@ -9,7 +9,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            toggleModal("Thanks! <br>Soon we will get in touch with you offering a very good Sao Paulo attraction suggestion."); 
+            toggleModal("Curiosity always pays back! Soon you'll get a tailor-made tour in your inbox."); 
         },
         function(error) {
             console.log("FAILED", error);
