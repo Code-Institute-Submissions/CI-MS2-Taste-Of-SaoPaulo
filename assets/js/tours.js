@@ -17,6 +17,9 @@ function tourSelected(tourId) {
     var imgPointA = document.getElementById("img-pointA");
     var imgPointB = document.getElementById("img-pointB");
     var imgPointC = document.getElementById("img-pointC");
+    var aPointA = document.getElementById("a-pointA");
+    var aPointB = document.getElementById("a-pointB");
+    var aPointC = document.getElementById("a-pointC"); 
     
     tourDetailsDiv.style.display='block';
     tourDetailsDiv.scrollIntoView();
@@ -41,6 +44,10 @@ function tourSelected(tourId) {
         imgPointA.src = "assets/images/tours/bixiga.jpg"; 
         imgPointB.src = "assets/images/tours/terraco_ita.jpg"; 
         imgPointC.src = "assets/images/tours/famiglia_mancini.jpg"; 
+
+        aPointA.href = "http://www.portaldobixiga.com.br/";
+        aPointB.href = "https://www.edificioitalia.com.br/";
+        aPointC.href = "http://www.famigliamancini.com.br/";
     }
     else if(tourId == "tour2")
     {
@@ -60,6 +67,10 @@ function tourSelected(tourId) {
         imgPointA.src = "assets/images/tours/masp.jpg"; 
         imgPointB.src = "assets/images/tours/tomie_ohtake.jpg"; 
         imgPointC.src = "assets/images/tours/museu_imigracao.jpg"; 
+
+        aPointA.href = "https://masp.org.br/";
+        aPointB.href = "https://www.institutotomieohtake.org.br/";
+        aPointC.href = "https://museudaimigracao.org.br/";        
     }
     else if(tourId == "tour3")
     {
@@ -80,6 +91,10 @@ function tourSelected(tourId) {
         imgPointA.src = "assets/images/tours/ibirapuera.jpg"; 
         imgPointB.src = "assets/images/tours/saopaulo_hall.jpg"; 
         imgPointC.src = "assets/images/tours/skye_bar.jpg"; 
+
+        aPointA.href = "https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_sul/index.php?p=14062";
+        aPointB.href = "http://www.salasaopaulo.art.br/home.aspx";
+        aPointC.href = "https://www.hotelunique.com/en/restaurant-bar/skye/";          
     }
     else if(tourId == "tour4")
     {
@@ -100,6 +115,9 @@ function tourSelected(tourId) {
         imgPointA.src = "assets/images/tours/mercado.jpg"; 
         imgPointB.src = "assets/images/tours/jk_iguatemi.jpg"; 
         imgPointC.src = "assets/images/tours/paulista.jpg"; 
+
+        aPointA.href = "https://portaldomercadao.com.br/";
+        aPointB.href = "https://iguatemi.com.br/jkiguatemi/";
     }
 
     //reinit the map
