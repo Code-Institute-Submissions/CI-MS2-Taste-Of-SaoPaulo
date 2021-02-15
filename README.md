@@ -182,10 +182,13 @@ iframes. Ref: [Stack Overflow](https://stackoverflow.com/a/27453371/14197670). I
 
 ### Code validity
 
-> HTML - [W3C](https://validator.w3.org/) - Markup Validation
-> CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
-> JavaScript - [JSHINT](https://jshint.com/) - JavaScript code warning & error check. It threw 11 warnings regarding ES6
-> TAGS - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly.
+> - HTML - [W3C](https://validator.w3.org/) - 20 Warnings regards embedded icons.
+> - CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+> - JavaScript - [JSHINT](https://jshint.com/) - JavaScript code warning & error check. It threw 11 warnings regarding ES6
+> - TAGS - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly.    
+> - [WebPageTest](https://www.webpagetest.org/result/210215_DiDS_0c65628647c80a4577e1e756975d7ba6/)
+> - [Mobile-Friendly](https://search.google.com/test/mobile-friendly?id=GJTtRSpVr3WZ-5_Dasu4QQ)
+> - Browse compatibility check
 
 ---
 
