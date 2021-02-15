@@ -1,8 +1,8 @@
 # TASTE OF SÃO PAULO
 
-[LIVE SITE ON GITHUB PAGES]()
+[LIVE SITE ON GITHUB PAGES](https://roliveira81.github.io/CI-MS2-Taste-Of-SaoPaulo/)
 
-MOCKUP IMAGE
+![Image](assets/images/mock.png)
 
 ### Overview
 > This project aims to turn boring business travels into interesting opportunities to soak in the vibrant cultural life of the biggest city in Brazil. It’s all about stimulating: the curiosity of recurring and short-time travellers, emerging and thriving local businesses, a colourful approach to concrete jungle.

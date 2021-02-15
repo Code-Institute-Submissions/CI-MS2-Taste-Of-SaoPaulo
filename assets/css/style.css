@@ -480,7 +480,7 @@ p {
 #more .more {
 	flex-direction: column;
 	text-align: center;
-	max-width: 1500px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
@@ -686,7 +686,15 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 }
 /* end keyframes */
 
-/* media query for mobile */
+/* media query for mobile rotated*/
+@media screen and (max-width: 991px) {
+	/* home */
+	#home h1 {
+		font-size: 4rem;
+	}
+	/* end home */	
+}
+
 @media only screen and (max-width: 768px) {
 	#tourDetails .tourDetail-map {
 		display: flex;
@@ -704,20 +712,9 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 
 /* media query for tablet */
 @media only screen and (min-width: 768px) {
-	.cta {
-		font-size: 2.5rem;
-		padding: 20px 60px;
-	}
-
 	h1.section-title {
 		font-size: 6rem;
 	}
-
-	/* home */
-	#home h1 {
-		font-size: 7rem;
-	}
-	/* end home */
 
 	/* tours section */
 	#tours .tour-bottom .tour-item {
@@ -829,6 +826,11 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 
 /* media query for desktop */
 @media only screen and (min-width: 1200px) {
+	.cta {
+		font-size: 2.5rem;
+		padding: 20px 60px;
+	}	
+
 	/* header */
 	#header .hamburger {
 		display: none;
@@ -850,6 +852,12 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 		display: none;
 	}
 	/* end header */
+	
+	/* home */
+	#home h1 {
+		font-size: 7rem;
+	}
+	/* end home */
 
 	#tours .tour-bottom .tour-item {
 		flex-basis: 22%;
